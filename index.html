@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+    
+
+<head>
+  <title>hexlet banner</title>
+
+</head>
+
+<body class="bg-light">
+  <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="container-fluid">
+          <div class="row">
+                <div class="modal-text-container col-8 col-sm-7">
+                  <h3>Хочу стать разработчиком!</h3>
+                  <h6>И получить один из трех подарков</h6>
+                  <ul>
+                    <li> 
+                      <div class="li-container">
+                        <img class="li-item-img" src="https://img.icons8.com/?size=100&id=81140&format=png&color=000000" height="30px" width="20px" alt="">
+                      <p class="li-item-p"><span>Именной депозит на 20К.</span> Будет доступен после покупки профессии, им можно оплачивать дальнейшее обучение<br>
+                      в Хекслете</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="li-container">
+                        <img class="li-item-img" src="https://img.icons8.com/?size=100&id=UTHWDRRlua5P&format=png&color=000000" height="30px" width="20px" alt="">
+                        <p class="li-item-p"><span>Консультация с карьерным специалистом в IT.</span><br>
+                          Прояснит вопросы будущего трудоустройства: от поиска<br>первой работы до развития карьеры</p>
+                      </div>  
+                    </li>
+                    <li>
+                      <div class="li-container">
+                        <img class="li-item-img" src="https://img.icons8.com/?size=100&id=80349&format=png&color=000000" height="30px" width="20px" alt="">
+                        <p class="li-item-p"><span>Возможность заморозить обучение на 2 месяца</span><br>
+                          Перерыв, если нужно будет восстановить силы<br>и не учиться</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <p class="notion">* Подарок определит специалист Хекслета после беседы. Мы уточним ваши намерения, поможем с выбором, а если поймем, что программирование - это не ваше, честно отговорим от обучения</p>
+                </div>
+                <div class="modal-form-container col-3 col-sm-4">
+                  <form action="" class="col">
+                    <div class="form-floating">
+                      <input type="text" class="form-control" id="input-name" placeholder="Имя">
+                      <label for="input-name">Имя</label>
+                    </div>
+                    <div class="form-floating">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="Электронная почта" value="example@gmail.com">
+                      <label for="input-email">Электронная почта</label>
+                    </div>
+                    <div class="form-floating">
+                      <input type="text" class="form-control " id="input-phone" placeholder="Номер телефона">
+                      <label for="input-email">Номер телефона</label>
+                    </div>
+                    <div class="form-floating">
+                      <select class="form-select" id="input-select" >
+                        <option class="selected" >Хочу на факультет</option>
+                        <option value="">Поддержка и тестирование</option>
+                        <option value="">Frontend-разработка</option>
+                        <option value="">Fullstack-разработка</option>
+                        <option value="">Аналитика данных</option>
+                      </select>
+                    </div>
+
+                      <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#modal">Жду звонка</button>
+                   
+                      <p class="notion">Даю согласие на обработку персональных данных, соглашаюсь с <a href="#">"Политикой конфеденциальности"</a> и <a href="#">"Условиями оказания услуг"</a></p>
+                      
+                  </form>
+                </div>
+                <div class="col-3 col-sm-1 modal-img-container">
+                  <img class="modal-arrow" src="https://img.icons8.com/?size=100&id=BGTIhKt6fzg6&format=png&color=228BE6" alt="">
+                </div>
+          </div>
+        </div>
+          
+        </div></div>
+        </div>
+   
+
+    <div class="banner container-fluid">
+        <div class="banner__inner row">
+          <div class="col-1 backpack-img-container">
+            <img class="backpack" src="https://img.icons8.com/?size=100&id=33RdYFxwxLGp&format=png&color=000000" height="30px" width="30px">
+          </div>
+          <div class="col-2">
+            <h7>Мы знаем как закончить школу за <span class="blue">10 месяцев!</span></h7>
+            <p class="banner-p">А потом устроиться на любимую работу</p>
+          </div>
+          <div class="col-1 arr-left-container">
+            <img class="arr-left" src="https://img.icons8.com/?size=100&id=BGTIhKt6fzg6&format=png&color=228BE6" width="60px" height="60px">
+          </div>
+          <div class="col-4">
+            <p class="banner-p">Хотите также? приходите учиться в Хекслет</p>
+            <h7><span class="blue">До 1 сентября</span>оставьте заявку на любую профессию <br>
+            А мы подарим классные <span>бонусы</span> для воодушевляющего старта</h7>
+          </div>
+          <div class="col-1 arr-right-container">
+            <img class="arr-right" src="https://img.icons8.com/?size=100&id=BGTIhKt6fzg6&format=png&color=228BE6" width="60px" height="60px">
+          </div>
+          <div class="col-2 banner-btn">
+            <button type="button" class="btn btn-primary btn-sm btn-ban" data-bs-toggle="modal" data-bs-target="#modal">А что подарите?</button>
+          </div>
+          <div class="col-1 comp-container">
+            <img class="comp-img" src="https://img.icons8.com/?size=100&id=b1HM5kobmPub&format=png&color=000000" alt="" height="30px" width="30px">
+          </div>
+
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+

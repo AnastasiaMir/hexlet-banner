@@ -1,0 +1,153 @@
+@import "bootstrap";
+body {
+    padding: 0;
+    /* background-color: #a83131,;
+    background: linear-gradient(#5b9cfd, transparent 1px), linear-gradient(90deg, #5b9cfd, rgb(252, 245, 245) 1px);
+    background-size: 20px 20px; */
+}
+.banner {
+    position: fixed;
+    width: 100vw;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    font-size: 14px;
+    background: linear-gradient(#5b9cfd, transparent 1px), linear-gradient(90deg, #5b9cfd, rgb(235, 235, 244) 1px);
+    background-size: 20px 20px;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.3);
+    display: block;
+    padding: 10px;
+}
+input, .form-select {
+    height: 40px;
+    margin-top: 10px;
+    outline: 1px solid #0d6efd;
+    padding: 0;
+
+}
+h3 {
+    color: #0d6efd;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+h6 {
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+span {
+    font-weight: bold;
+}
+
+button.btn-modal {
+    margin-top: 10px;
+    width: 100%;
+    outline: 1px solid #0d6efd;
+    height: 40px;
+    font-weight: bold;
+}
+
+.modal-content {
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(#5b9cfd, transparent 1px), linear-gradient(90deg, #5b9cfd, rgb(245, 245, 250) 1px);
+    background-size: 20px 20px;
+    padding: 30px 10px;
+}
+
+.modal-text-container {
+    text-align: left;
+    padding-left: 40px;
+}
+.modal-form-container {
+    padding-top: 20px;
+}
+p.notion {
+    margin-top: 10px;
+    font-size: x-small;
+}
+li {
+    font-size: small;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.li-container {
+    display: flex;
+}
+.li-item-p {
+    flex:90%;
+    margin-bottom: 5%;
+}
+.li-item-img {
+    flex:10%;
+    margin: 5px 5px auto 0;
+
+}
+.modal-img-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.modal-arrow {
+    transform: rotate(90deg) scale(1,-1);
+    width: 80px;
+    height: auto;
+    margin-bottom: 100px;
+}
+#input-select {    padding: 10px;
+}
+.backpack-img-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.backpack {
+    transform: rotate(45deg);
+}
+.banner-p {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+h7 {
+    font-weight: bold;
+    margin-top: 0px;
+}
+span.blue {
+    color: #0d6efd;
+}
+.banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arr-left-container, .comp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arr-left {
+    transform: rotate(50deg);
+}
+.arr-right {
+    transform: rotate(0deg);
+}
+.arr-right-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.comp-img {
+    transform: rotate(30deg);
+}
+
+.comp-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
